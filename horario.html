@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de atendimento</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+            margin: 15;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: aquamarine;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: aqua;
+            padding: 10px 20px 0px;
+        }
+        .header {
+            background-color: rgb(5, 108, 108);
+            min-height: 150px;
+        }
+        .content {
+            background-color: white;
+            min-height: 300px;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: rgb(99, 56, 240);
+            min-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Príncipal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="horario.html">Horário de atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+              
+                <img src="img/img2.jpeg" alt="  Imagem mostrando a recepção da clínica, onde tem duas pessoas em pé conversando e um senhor sentado esperando seu horário para ser atendido.">
+                
+            </div>
+    
+            <div class="content">
+                <p>Oferecemos uma ampla gama de serviços médicos para atender você e sua família. Confira nossos horários de atendimento para cada especialidade:</p>
+                <hr>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Clínica geral</td>
+                            <td>08h - 20h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 12h</td>
+                        </tr>
+                        <tr>
+                            <td>Pediatria</td>
+                            <td>08h - 20h</td>
+                            <td> - </td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <td>Gestantes</td>
+                            <td>08h - 20h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 12h</td>
+                        </tr>
+                        <tr>
+                            <td>Idosos</td>
+                            <td>08h - 20h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 12h</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td>Total</td>
+                        <td>5</td>
+                    </tfoot>
+                </table>
+            </div>
+    
+            <div class="footer">
+                <p>&copy; 2024 Heart Clinic. Todos os direitos reservados.</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
